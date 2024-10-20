@@ -1,0 +1,264 @@
+material Public_Method
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write on
+			texture_unit
+			{
+				texture Cube_texture.png
+			}
+			ambient 0.5 0.9 0.9 1
+       			diffuse 0.1 0.2 0.7 1
+        		emissive 0 0 0 1
+		}
+	}
+}
+material Public_Method_Clicked
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write on
+			texture_unit
+			{
+				texture Cube_texture.png
+			}
+			ambient 0.5 0.9 0.9 1
+       			diffuse 0.1 0.2 0.7 1
+        		emissive 0.1 0.2 0.7 1
+		}
+	}
+}
+material Non_Public_Method
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write on
+			texture_unit
+			{
+				texture Cube_texture.png
+			}
+			ambient 0.3 0.3 0.3 1
+       			diffuse 0.1 0.2 0.7 1
+        		emissive 0 0 0 1
+		}
+	}
+}
+material Non_Public_Method_Clicked
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write on
+			texture_unit
+			{
+				texture Cube_texture.png
+			}
+			ambient 0.3 0.3 0.3 1
+       			diffuse 0.1 0.2 0.7 1
+        		emissive 0.1 0.2 0.7 1
+		}
+	}
+}
+material Methodless_Tree
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write on
+        		
+			ambient 0.3 0.1 0.1 1
+			diffuse 0.8 0.05 0.05 1
+			emissive 0 0 0 1
+		}
+	}
+}
+material Methodless_Tree_Clicked
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write on
+        		
+			ambient 0.3 0.1 0.1 1
+			diffuse 0.8 0.05 0.05 1
+			emissive 0.8 0.05 0.05 1
+		}
+	}
+}
+material Base
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write on
+        		
+			ambient 0.1 0.1 0.1 1
+			diffuse 0.5 0.3 0.2 1
+			emissive 0 0 0 1
+		}
+	}
+}
+material Branch
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write on
+        		texture_unit
+			{
+				texture Branch.png
+			}
+		}
+	}
+}
+material Namespace
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write on
+        		texture_unit
+			{
+				texture Namespace_texture.png
+			}
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.5 0.5 0.5 1
+			emissive 0 0 0 1
+		}
+	}
+}
+material Namespace2
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write on
+        		texture_unit
+			{
+				texture Namespace_texture.png
+			}
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.6 0.6 0.6 1
+			emissive 0 0 0 1
+		}
+	}
+}
+material Namespace3
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write on
+        		texture_unit
+			{
+				texture Namespace_texture.png
+			}
+			ambient 0.3 0.3 0.3 1
+			diffuse 0.6 0.6 0.6 1
+			emissive 0 0 0 1
+		}
+	}
+}
+
+material Namespace_Clicked
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write on
+        		texture_unit
+			{
+				texture Namespace_texture.png
+			}
+			ambient 0.5 0.5 0.5 1
+			diffuse 0.5 0.5 0.5 1
+			emissive 0.1 0.5 0.5 1
+		}
+	}
+}
+material DependencyLine
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write on
+        		
+			ambient 0 1 0 1
+			diffuse 0 1 0 1
+			emissive 0 1 0 1
+		}
+	}
+}
+material DependencyLine2
+{
+	receive_shadows on
+
+	technique
+	{
+		pass
+		{
+			lighting on
+			depth_write on
+        		
+			ambient 1 0 1 1
+			diffuse 1 0 1 1
+			emissive 1 0 1 1
+		}
+	}
+}
+

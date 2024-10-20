@@ -1,0 +1,4 @@
+namespace_height = 5
+tree_size = 100
+branch_size = 40
+space_between = 100

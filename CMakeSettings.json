@@ -1,0 +1,27 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug",
+      "generator": "Unix Makefiles",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "Boost_INCLUDE_DIR",
+          "value": "C:/Users/galax/Documents/boost_1_86_0",
+          "type": "PATH"
+        },
+        {
+          "name": "OGRE_DIR",
+          "value": "C:/code-forests/ogre/build/cmake",
+          "type": "PATH"
+        }
+      ]
+    }
+  ]
+}
